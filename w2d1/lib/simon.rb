@@ -34,7 +34,9 @@ class Simon
   def show_sequence
     add_random_color
     COLORS[0...@sequence_length].each {|el| print el + " "}
-    puts ""
+    sleep 0.75
+    `reset`
+    # puts ""
   end
 
   def require_sequence
@@ -53,6 +55,8 @@ class Simon
 
   def game_over_message
     puts "Boooo you lose!"
+    puts "No worries, try again :)"
+    sleep 2
   end
 
   def reset_game
