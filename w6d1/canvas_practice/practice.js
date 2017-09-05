@@ -8,7 +8,15 @@ document.addEventListener("DOMContentLoaded", function(){
   ctx.fillRect(0,0,500,500);
 
   ctx.beginPath();
-  ctx.arc(100, 200, 40, 0 , 2*Math.PI);
+  ctx.arc(100, 200, 40, 0 , Math.PI);
+  ctx.strokeStyle = "blue";
+  ctx.lineWidth = 10;
+  ctx.stroke();
+  ctx.fillStyle = "green";
+  ctx.fill();
+
+  ctx.beginPath();
+  ctx.arc(100, 100, 40, 0 , Math.PI);
   ctx.strokeStyle = "blue";
   ctx.lineWidth = 10;
   ctx.stroke();
