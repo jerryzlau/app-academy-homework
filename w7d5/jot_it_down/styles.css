@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+/*body div{
+  position: absolute;
+  height: 50px;
+  top: 40%;
+  left: 22%;
+  font-size: 35px;
+  margin-left: -50px;
+  margin-top: -25px;
+  background-image: url("splash.jpg");
+}*/
+
+body div {
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 460px;
+  background-image: url("splash.jpg");
+  background-position:center;
+
+}
+
+body div p {
+  display: flex;
+  margin: 0px;
+  margin-bottom: 5px;
+  justify-content: center;
+  top: 50%;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.welcome {
+  padding-top: 22%;
+}
+
+/*body {
+  background-image: url("splash.jpg");
+}*/
+
+.background {
+  height: 748px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 3px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 2.5px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/*.left-nav-bar {
+
+}*/
+
+/*.right-nav-bar {
+  float: right;
+}*/
